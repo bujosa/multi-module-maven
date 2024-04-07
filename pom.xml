@@ -23,6 +23,7 @@
 
 	<modules>
 		<module>./apps/product</module>
+		<module>./common</module>
 	</modules>
 
 	<dependencies>

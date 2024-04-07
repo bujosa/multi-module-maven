@@ -15,4 +15,13 @@
 	<name>product</name>
 	<description>This service is for fetch and manage the products of BIT</description>
 
+	<dependencies>
+		<dependency>
+			<artifactId>common</artifactId>
+			<groupId>com.bit</groupId>
+			<version>0.0.1-SNAPSHOT</version>
+			<scope>compile</scope>
+		</dependency>
+	</dependencies>
+
 </project>
