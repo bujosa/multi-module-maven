@@ -8,5 +8,5 @@ The repository is structured into different applications and modules. Each appli
 
 Currently, the repository includes the following:
 
-- `apps/common`: This module contains common utilities, components, and services that are shared across different applications.
+- `common`: This module contains common utilities, components, and services that are shared across different applications.
 - `apps/product`: This module is responsible for all operations related to products. It includes services for creating, updating, deleting, and fetching product data. It also includes components for displaying product information in the user interface. This module may interact with the `common` for shared utilities and services.
