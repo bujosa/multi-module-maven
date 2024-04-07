@@ -11,6 +11,6 @@ public class ProductController {
     @GetMapping("/hello")
     public String hello() {
         MyUser myUser = new MyUser("John");
-        return  " Hello" + myUser.getName() + "!";
+        return myUser.toString();
     }
 }

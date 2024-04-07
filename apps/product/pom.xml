@@ -15,6 +15,11 @@
 	<name>product</name>
 	<description>This service is for fetch and manage the products of BIT</description>
 
+	<properties>
+		<java.version>21</java.version>
+	</properties>
+
+
 	<dependencies>
 		<dependency>
 			<artifactId>common</artifactId>
@@ -23,5 +28,5 @@
 			<scope>compile</scope>
 		</dependency>
 	</dependencies>
-
+	
 </project>
